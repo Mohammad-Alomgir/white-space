@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt@-10..0&display=swap');
+
+/* ================
+    Commnon css start
+   =============== */
+:root {
+    --primary-bg-color: #043873;
+    --secondary-bg-color: #4F9CF9;
+    --primary-text-color: #212529;
+    --secondary-text-color: #fff;
+    --other-bg-color: #FFE492;
+    --other-text-color: #A7CEFC;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--primary-text-color);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+.default_btn {
+    background-color: var(--secondary-bg-color);
+    padding: 16px 24px !important;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.9s ease all;
+}
+
+/* ================
+    Commnon css end
+   =============== */
+
+/* ================
+    header css start
+ =============== */
+header {
+    background-color: var(--primary-bg-color);
+    padding: 16px 0;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header menu start */
+/* .header_menu ul.menu_lists {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_menu ul.menu_lists>li {
+    margin-left: 32px;
+}
+
+.header_menu.menu_lists ul li:first-child {
+    margin-left: 0;
+}
+
+.header_menu ul.menu_lists li a {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.header_menu ul.menu_lists li.dropdown>a:hover {
+    color: #FFE492;
+}
+
+.header_menu i {
+    margin-left: 9px;
+} */
+
+/* header menu end */
+
+/* header button start */
+.navbar-nav > li > a{
+    color: #fff;
+    font-size: 18px;
+}
+
+a.nav-link:hover{
+    color: #af9d9d !important;
+}
+.navbar-nav > li button.btn_login {
+    background-color: #FFE492;
+    color: #000;
+    margin-right: 15px;
+}
+.dropdown-menu{
+    margin: 0;
+    padding: 0;
+}
+.dropdown-menu a{
+    background-color: #000;
+    color: #fff;
+}
+.dropdown-menu a:hover{
+    background-color: #1d1c1c;
+    color: #9b9b9b;
+}
+
+.navbar-nav > li button{
+    color: #fff;
+}
+
+.navbar-nav > li  button.btn_login:hover {
+    background-color: #ffc413;
+    color: #000;
+}
+.navbar-nav > li button.btn_free_tial {
+    background-color: #4F9CF9;
+}
+
+.navbar-nav > li button.btn_free_tial:hover {
+    background-color: #146fdf;
+}
+
+/* .nav-item .nav-link{
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* header button end */
+
+/* ================
+    header css end
+=============== */

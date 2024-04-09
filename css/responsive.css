@@ -1,0 +1,36 @@
+@media(max-width: 991px) {
+    .navbar-nav{
+            margin-top: 1.5rem;
+    }
+
+    .navbar-nav>li {
+        width: 100%;
+    }
+
+    .navbar-nav>li a.nav-link {
+        justify-content: space-between !important;
+        align-items: center;
+        display: block;
+        margin: 5px 0 !important;
+        padding: 0 10px;
+    }
+    .navbar-nav>li button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .navbar-nav>li>a.nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-nav>li button {
+        font-size: 14px;
+        padding: 10px 16px !important;
+    }
+}
